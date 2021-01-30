@@ -34,7 +34,8 @@ export default {
       about,
       instructions,
       opening_hours,
-      open_on_weekends,
+      open_on_weekends: open_on_weekends === 'true', 
+      // do FE essa var vem como STRING, entao aqui, vai validar que SE vir (===) como 'true', retorna true boolean
       images,
     }
     
